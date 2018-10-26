@@ -1,0 +1,659 @@
+@!@!@STARTMSG 2262:0 @!@!@
+TLC2 Version 2.13 of 18 July 2018
+@!@!@ENDMSG 2262 @!@!@
+@!@!@STARTMSG 2187:0 @!@!@
+Running breadth-first search Model-Checking with seed -3501496955887248665 with 4 workers on 8 cores with 608MB heap and 1365MB offheap memory (Mac OS X 10.13.6 x86_64, Oracle Corporation 1.8.0_172 x86_64).
+@!@!@ENDMSG 2187 @!@!@
+@!@!@STARTMSG 2220:0 @!@!@
+Starting SANY...
+@!@!@ENDMSG 2220 @!@!@
+Parsing file /Users/vivek/Desktop/model_2.toolbox/Model_2/MC.tla
+Parsing file /Users/vivek/Desktop/model_2.toolbox/Model_2/LamportOwn2.tla
+Parsing file /private/var/folders/21/kx9qb6b10f7d9vd8cps7p7sh0000gn/T/AppTranslocation/1F3A27BE-3BB7-429F-85AC-E6180E609087/d/TLA+ Toolbox.app/Contents/Eclipse/plugins/org.lamport.tlatools_1.0.0.201807180447/tla2sany/StandardModules/TLC.tla
+Parsing file /private/var/folders/21/kx9qb6b10f7d9vd8cps7p7sh0000gn/T/AppTranslocation/1F3A27BE-3BB7-429F-85AC-E6180E609087/d/TLA+ Toolbox.app/Contents/Eclipse/plugins/org.lamport.tlatools_1.0.0.201807180447/tla2sany/StandardModules/Naturals.tla
+Parsing file /private/var/folders/21/kx9qb6b10f7d9vd8cps7p7sh0000gn/T/AppTranslocation/1F3A27BE-3BB7-429F-85AC-E6180E609087/d/TLA+ Toolbox.app/Contents/Eclipse/plugins/org.lamport.tlatools_1.0.0.201807180447/tla2sany/StandardModules/Sequences.tla
+Parsing file /private/var/folders/21/kx9qb6b10f7d9vd8cps7p7sh0000gn/T/AppTranslocation/1F3A27BE-3BB7-429F-85AC-E6180E609087/d/TLA+ Toolbox.app/Contents/Eclipse/plugins/org.lamport.tlatools_1.0.0.201807180447/tla2sany/StandardModules/FiniteSets.tla
+Semantic processing of module Naturals
+Semantic processing of module Sequences
+Semantic processing of module LamportOwn2
+Semantic processing of module FiniteSets
+Semantic processing of module TLC
+Semantic processing of module MC
+@!@!@STARTMSG 2219:0 @!@!@
+SANY finished.
+@!@!@ENDMSG 2219 @!@!@
+@!@!@STARTMSG 2185:0 @!@!@
+Starting... (2018-10-05 21:46:40)
+@!@!@ENDMSG 2185 @!@!@
+@!@!@STARTMSG 2212:0 @!@!@
+Implied-temporal checking--satisfiability problem has 1 branches.
+@!@!@ENDMSG 2212 @!@!@
+@!@!@STARTMSG 2189:0 @!@!@
+Computing initial states...
+@!@!@ENDMSG 2189 @!@!@
+@!@!@STARTMSG 2269:0 @!@!@
+Computed 2 initial states...
+@!@!@ENDMSG 2269 @!@!@
+@!@!@STARTMSG 2269:0 @!@!@
+Computed 4 initial states...
+@!@!@ENDMSG 2269 @!@!@
+@!@!@STARTMSG 2269:0 @!@!@
+Computed 8 initial states...
+@!@!@ENDMSG 2269 @!@!@
+@!@!@STARTMSG 2269:0 @!@!@
+Computed 16 initial states...
+@!@!@ENDMSG 2269 @!@!@
+@!@!@STARTMSG 2269:0 @!@!@
+Computed 32 initial states...
+@!@!@ENDMSG 2269 @!@!@
+@!@!@STARTMSG 2269:0 @!@!@
+Computed 64 initial states...
+@!@!@ENDMSG 2269 @!@!@
+@!@!@STARTMSG 2269:0 @!@!@
+Computed 128 initial states...
+@!@!@ENDMSG 2269 @!@!@
+@!@!@STARTMSG 2190:0 @!@!@
+Finished computing initial states: 216 distinct states generated.
+@!@!@ENDMSG 2190 @!@!@
+@!@!@STARTMSG 2192:0 @!@!@
+Checking temporal properties for the current state space with 2989 total distinct states at (2018-10-05 21:46:44)
+@!@!@ENDMSG 2192 @!@!@
+@!@!@STARTMSG 2267:0 @!@!@
+Finished checking temporal properties in 00s at 2018-10-05 21:46:44
+@!@!@ENDMSG 2267 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(5) at 2018-10-05 21:46:44: 40038 states generated (40,038 s/min), 10846 distinct states found (10,846 ds/min), 7855 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2192:0 @!@!@
+Checking temporal properties for the current state space with 225886 total distinct states at (2018-10-05 21:47:44)
+@!@!@ENDMSG 2192 @!@!@
+@!@!@STARTMSG 2267:0 @!@!@
+Finished checking temporal properties in 35s at 2018-10-05 21:48:19
+@!@!@ENDMSG 2267 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(9) at 2018-10-05 21:48:19: 1996543 states generated (1,956,505 s/min), 484605 distinct states found (473,759 ds/min), 258711 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(10) at 2018-10-05 21:49:19: 3962035 states generated (1,965,492 s/min), 873777 distinct states found (389,172 ds/min), 383976 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(10) at 2018-10-05 21:50:19: 5959105 states generated (1,997,070 s/min), 1231699 distinct states found (357,922 ds/min), 460677 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2201:0 @!@!@
+The coverage statistics at 2018-10-05 21:50:19
+@!@!@ENDMSG 2201 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 24, col 7 to line 24, col 46 of module LamportOwn2: 451550
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 26, col 13 to line 26, col 44 of module LamportOwn2: 451550
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 29, col 19 to line 30, col 87 of module LamportOwn2: 451550
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 31, col 19 to line 31, col 66 of module LamportOwn2: 451550
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 32, col 13 to line 32, col 76 of module LamportOwn2: 451550
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 33, col 17 to line 33, col 25 of module LamportOwn2: 451550
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 40, col 10 to line 40, col 47 of module LamportOwn2: 74150
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 41, col 10 to line 41, col 53 of module LamportOwn2: 74150
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 42, col 23 to line 42, col 26 of module LamportOwn2: 74150
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 42, col 29 to line 42, col 33 of module LamportOwn2: 74150
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 42, col 36 to line 42, col 44 of module LamportOwn2: 74150
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 42, col 47 to line 42, col 55 of module LamportOwn2: 74150
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 47, col 7 to line 47, col 43 of module LamportOwn2: 22530
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 49, col 10 to line 50, col 80 of module LamportOwn2: 22530
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 51, col 7 to line 51, col 78 of module LamportOwn2: 22530
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 52, col 20 to line 52, col 24 of module LamportOwn2: 22530
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 52, col 27 to line 52, col 35 of module LamportOwn2: 22530
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 52, col 38 to line 52, col 43 of module LamportOwn2: 22530
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 59, col 10 to line 60, col 60 of module LamportOwn2: 2478813
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 63, col 19 to line 63, col 69 of module LamportOwn2: 744556
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 64, col 19 to line 64, col 69 of module LamportOwn2: 744556
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 65, col 18 to line 65, col 33 of module LamportOwn2: 1734257
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 66, col 28 to line 66, col 36 of module LamportOwn2: 1734257
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 68, col 10 to line 68, col 59 of module LamportOwn2: 2478813
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 69, col 10 to line 72, col 48 of module LamportOwn2: 2478813
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 73, col 20 to line 73, col 24 of module LamportOwn2: 2478813
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 75, col 33 to line 75, col 66 of module LamportOwn2: 2931928
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 76, col 28 to line 76, col 32 of module LamportOwn2: 2931928
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 76, col 35 to line 76, col 38 of module LamportOwn2: 2931928
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 76, col 41 to line 76, col 46 of module LamportOwn2: 2931928
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 76, col 49 to line 76, col 57 of module LamportOwn2: 2931928
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 76, col 60 to line 76, col 68 of module LamportOwn2: 2931928
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2202:0 @!@!@
+End of statistics.
+@!@!@ENDMSG 2202 @!@!@
+@!@!@STARTMSG 2192:0 @!@!@
+Checking temporal properties for the current state space with 1072531 total distinct states at (2018-10-05 21:51:19)
+@!@!@ENDMSG 2192 @!@!@
+@!@!@STARTMSG 2267:0 @!@!@
+Finished checking temporal properties in 03min 17s at 2018-10-05 21:54:36
+@!@!@ENDMSG 2267 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(11) at 2018-10-05 21:54:36: 7946971 states generated (1,987,866 s/min), 1580239 distinct states found (348,540 ds/min), 507699 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(12) at 2018-10-05 21:55:36: 10064380 states generated (2,117,409 s/min), 1950202 distinct states found (369,963 ds/min), 545082 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(12) at 2018-10-05 21:56:36: 12178039 states generated (2,113,659 s/min), 2347566 distinct states found (397,364 ds/min), 632595 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(13) at 2018-10-05 21:57:36: 14130221 states generated (1,952,182 s/min), 2725741 distinct states found (378,175 ds/min), 711118 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2201:0 @!@!@
+The coverage statistics at 2018-10-05 21:57:36
+@!@!@ENDMSG 2201 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 24, col 7 to line 24, col 46 of module LamportOwn2: 1018148
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 26, col 13 to line 26, col 44 of module LamportOwn2: 1018148
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 29, col 19 to line 30, col 87 of module LamportOwn2: 1018148
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 31, col 19 to line 31, col 66 of module LamportOwn2: 1018148
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 32, col 13 to line 32, col 76 of module LamportOwn2: 1018148
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 33, col 17 to line 33, col 25 of module LamportOwn2: 1018148
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 40, col 10 to line 40, col 47 of module LamportOwn2: 347726
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 41, col 10 to line 41, col 53 of module LamportOwn2: 347726
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 42, col 23 to line 42, col 26 of module LamportOwn2: 347726
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 42, col 29 to line 42, col 33 of module LamportOwn2: 347726
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 42, col 36 to line 42, col 44 of module LamportOwn2: 347726
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 42, col 47 to line 42, col 55 of module LamportOwn2: 347726
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 47, col 7 to line 47, col 43 of module LamportOwn2: 225886
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 49, col 10 to line 50, col 80 of module LamportOwn2: 225886
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 51, col 7 to line 51, col 78 of module LamportOwn2: 225886
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 52, col 20 to line 52, col 24 of module LamportOwn2: 225886
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 52, col 27 to line 52, col 35 of module LamportOwn2: 225886
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 52, col 38 to line 52, col 43 of module LamportOwn2: 225886
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 59, col 10 to line 60, col 60 of module LamportOwn2: 5907213
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 63, col 19 to line 63, col 69 of module LamportOwn2: 1616280
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 64, col 19 to line 64, col 69 of module LamportOwn2: 1616280
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 65, col 18 to line 65, col 33 of module LamportOwn2: 4290933
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 66, col 28 to line 66, col 36 of module LamportOwn2: 4290933
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 68, col 10 to line 68, col 59 of module LamportOwn2: 5907213
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 69, col 10 to line 72, col 48 of module LamportOwn2: 5907213
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 73, col 20 to line 73, col 24 of module LamportOwn2: 5907213
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 75, col 33 to line 75, col 66 of module LamportOwn2: 6631355
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 76, col 28 to line 76, col 32 of module LamportOwn2: 6631355
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 76, col 35 to line 76, col 38 of module LamportOwn2: 6631355
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 76, col 41 to line 76, col 46 of module LamportOwn2: 6631355
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 76, col 49 to line 76, col 57 of module LamportOwn2: 6631355
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 76, col 60 to line 76, col 68 of module LamportOwn2: 6631355
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2202:0 @!@!@
+End of statistics.
+@!@!@ENDMSG 2202 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(13) at 2018-10-05 21:58:36: 16071114 states generated (1,940,893 s/min), 3119690 distinct states found (393,949 ds/min), 831732 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(14) at 2018-10-05 21:59:36: 18079268 states generated (2,008,154 s/min), 3529874 distinct states found (410,184 ds/min), 947078 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(14) at 2018-10-05 22:00:36: 20049296 states generated (1,970,028 s/min), 3910696 distinct states found (380,822 ds/min), 1041095 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(14) at 2018-10-05 22:01:36: 21998002 states generated (1,948,706 s/min), 4289567 distinct states found (378,871 ds/min), 1149157 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2201:0 @!@!@
+The coverage statistics at 2018-10-05 22:01:36
+@!@!@ENDMSG 2201 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 24, col 7 to line 24, col 46 of module LamportOwn2: 1891067
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 26, col 13 to line 26, col 44 of module LamportOwn2: 1891067
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 29, col 19 to line 30, col 87 of module LamportOwn2: 1891067
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 31, col 19 to line 31, col 66 of module LamportOwn2: 1891067
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 32, col 13 to line 32, col 76 of module LamportOwn2: 1891067
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 33, col 17 to line 33, col 25 of module LamportOwn2: 1891067
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 40, col 10 to line 40, col 47 of module LamportOwn2: 472809
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 41, col 10 to line 41, col 53 of module LamportOwn2: 472809
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 42, col 23 to line 42, col 26 of module LamportOwn2: 472809
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 42, col 29 to line 42, col 33 of module LamportOwn2: 472809
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 42, col 36 to line 42, col 44 of module LamportOwn2: 472809
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 42, col 47 to line 42, col 55 of module LamportOwn2: 472809
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 47, col 7 to line 47, col 43 of module LamportOwn2: 392184
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 49, col 10 to line 50, col 80 of module LamportOwn2: 392184
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 51, col 7 to line 51, col 78 of module LamportOwn2: 392184
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 52, col 20 to line 52, col 24 of module LamportOwn2: 392184
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 52, col 27 to line 52, col 35 of module LamportOwn2: 392184
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 52, col 38 to line 52, col 43 of module LamportOwn2: 392184
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 59, col 10 to line 60, col 60 of module LamportOwn2: 9348171
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 63, col 19 to line 63, col 69 of module LamportOwn2: 2319363
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 64, col 19 to line 64, col 69 of module LamportOwn2: 2319363
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 65, col 18 to line 65, col 33 of module LamportOwn2: 7028808
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 66, col 28 to line 66, col 36 of module LamportOwn2: 7028808
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 68, col 10 to line 68, col 59 of module LamportOwn2: 9348171
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 69, col 10 to line 72, col 48 of module LamportOwn2: 9348171
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 73, col 20 to line 73, col 24 of module LamportOwn2: 9348171
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 75, col 33 to line 75, col 66 of module LamportOwn2: 9893605
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 76, col 28 to line 76, col 32 of module LamportOwn2: 9893605
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 76, col 35 to line 76, col 38 of module LamportOwn2: 9893605
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 76, col 41 to line 76, col 46 of module LamportOwn2: 9893605
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 76, col 49 to line 76, col 57 of module LamportOwn2: 9893605
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 76, col 60 to line 76, col 68 of module LamportOwn2: 9893605
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2202:0 @!@!@
+End of statistics.
+@!@!@ENDMSG 2202 @!@!@
+@!@!@STARTMSG 2195:0 @!@!@
+Checkpointing of run /Users/vivek/Desktop/model_2.toolbox/Model_2/18-10-05-21-46-39
+@!@!@ENDMSG 2195 @!@!@
+@!@!@STARTMSG 2196:0 @!@!@
+Checkpointing completed at (2018-10-05 22:02:37)
+@!@!@ENDMSG 2196 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(14) at 2018-10-05 22:02:37: 23789995 states generated (1,791,993 s/min), 4649472 distinct states found (359,905 ds/min), 1246657 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(15) at 2018-10-05 22:03:37: 25777711 states generated (1,987,716 s/min), 4997227 distinct states found (347,755 ds/min), 1280663 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(15) at 2018-10-05 22:04:37: 27678666 states generated (1,900,955 s/min), 5353197 distinct states found (355,970 ds/min), 1370662 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(15) at 2018-10-05 22:05:37: 29618956 states generated (1,940,290 s/min), 5715199 distinct states found (362,002 ds/min), 1449513 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2201:0 @!@!@
+The coverage statistics at 2018-10-05 22:05:37
+@!@!@ENDMSG 2201 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 24, col 7 to line 24, col 46 of module LamportOwn2: 2679631
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 26, col 13 to line 26, col 44 of module LamportOwn2: 2679631
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 29, col 19 to line 30, col 87 of module LamportOwn2: 2679631
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 31, col 19 to line 31, col 66 of module LamportOwn2: 2679631
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 32, col 13 to line 32, col 76 of module LamportOwn2: 2679631
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 33, col 17 to line 33, col 25 of module LamportOwn2: 2679631
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 40, col 10 to line 40, col 47 of module LamportOwn2: 548856
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 41, col 10 to line 41, col 53 of module LamportOwn2: 548856
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 42, col 23 to line 42, col 26 of module LamportOwn2: 548856
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 42, col 29 to line 42, col 33 of module LamportOwn2: 548856
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 42, col 36 to line 42, col 44 of module LamportOwn2: 548856
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 42, col 47 to line 42, col 55 of module LamportOwn2: 548856
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 47, col 7 to line 47, col 43 of module LamportOwn2: 471597
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 49, col 10 to line 50, col 80 of module LamportOwn2: 471597
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 51, col 7 to line 51, col 78 of module LamportOwn2: 471597
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 52, col 20 to line 52, col 24 of module LamportOwn2: 471597
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 52, col 27 to line 52, col 35 of module LamportOwn2: 471597
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 52, col 38 to line 52, col 43 of module LamportOwn2: 471597
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 59, col 10 to line 60, col 60 of module LamportOwn2: 13023905
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 63, col 19 to line 63, col 69 of module LamportOwn2: 2999264
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 64, col 19 to line 64, col 69 of module LamportOwn2: 2999264
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 65, col 18 to line 65, col 33 of module LamportOwn2: 10024640
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 66, col 28 to line 66, col 36 of module LamportOwn2: 10024640
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 68, col 10 to line 68, col 59 of module LamportOwn2: 13023904
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 69, col 10 to line 72, col 48 of module LamportOwn2: 13023904
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 73, col 20 to line 73, col 24 of module LamportOwn2: 13023904
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 75, col 33 to line 75, col 66 of module LamportOwn2: 12894788
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 76, col 28 to line 76, col 32 of module LamportOwn2: 12894789
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 76, col 35 to line 76, col 38 of module LamportOwn2: 12894789
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 76, col 41 to line 76, col 46 of module LamportOwn2: 12894789
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 76, col 49 to line 76, col 57 of module LamportOwn2: 12894789
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 76, col 60 to line 76, col 68 of module LamportOwn2: 12894789
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2202:0 @!@!@
+End of statistics.
+@!@!@ENDMSG 2202 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(15) at 2018-10-05 22:06:37: 31357715 states generated (1,738,759 s/min), 6040311 distinct states found (325,112 ds/min), 1512551 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2192:0 @!@!@
+Checking temporal properties for the current state space with 4820279 total distinct states at (2018-10-05 22:07:37)
+@!@!@ENDMSG 2192 @!@!@
+@!@!@STARTMSG 2201:0 @!@!@
+The coverage statistics at 2018-10-05 22:08:21
+@!@!@ENDMSG 2201 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 24, col 7 to line 24, col 46 of module LamportOwn2: 3025229
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 26, col 13 to line 26, col 44 of module LamportOwn2: 3025229
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 29, col 19 to line 30, col 87 of module LamportOwn2: 3025229
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 31, col 19 to line 31, col 66 of module LamportOwn2: 3025229
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 32, col 13 to line 32, col 76 of module LamportOwn2: 3025229
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 33, col 17 to line 33, col 25 of module LamportOwn2: 3025229
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 40, col 10 to line 40, col 47 of module LamportOwn2: 585723
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 41, col 10 to line 41, col 53 of module LamportOwn2: 585723
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 42, col 23 to line 42, col 26 of module LamportOwn2: 585723
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 42, col 29 to line 42, col 33 of module LamportOwn2: 585723
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 42, col 36 to line 42, col 44 of module LamportOwn2: 585723
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 42, col 47 to line 42, col 55 of module LamportOwn2: 585723
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 47, col 7 to line 47, col 43 of module LamportOwn2: 497182
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 49, col 10 to line 50, col 80 of module LamportOwn2: 497182
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 51, col 7 to line 51, col 78 of module LamportOwn2: 497182
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 52, col 20 to line 52, col 24 of module LamportOwn2: 497182
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 52, col 27 to line 52, col 35 of module LamportOwn2: 497182
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 52, col 38 to line 52, col 43 of module LamportOwn2: 497182
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 59, col 10 to line 60, col 60 of module LamportOwn2: 14910594
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 63, col 19 to line 63, col 69 of module LamportOwn2: 3336163
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 64, col 19 to line 64, col 69 of module LamportOwn2: 3336163
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 65, col 18 to line 65, col 33 of module LamportOwn2: 11574431
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 66, col 28 to line 66, col 36 of module LamportOwn2: 11574431
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 68, col 10 to line 68, col 59 of module LamportOwn2: 14910594
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 69, col 10 to line 72, col 48 of module LamportOwn2: 14910594
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 73, col 20 to line 73, col 24 of module LamportOwn2: 14910594
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 75, col 33 to line 75, col 66 of module LamportOwn2: 14160756
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 76, col 28 to line 76, col 32 of module LamportOwn2: 14160756
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 76, col 35 to line 76, col 38 of module LamportOwn2: 14160756
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 76, col 41 to line 76, col 46 of module LamportOwn2: 14160756
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 76, col 49 to line 76, col 57 of module LamportOwn2: 14160756
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 76, col 60 to line 76, col 68 of module LamportOwn2: 14160756
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2202:0 @!@!@
+End of statistics.
+@!@!@ENDMSG 2202 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(16) at 2018-10-05 22:08:21: 33179700 states generated (1,529,212 s/min), 6348832 distinct states found (292,609 ds/min), 1528553 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2199:0 @!@!@
+33179700 states generated, 6348832 distinct states found, 1528553 states left on queue.
+@!@!@ENDMSG 2199 @!@!@
+@!@!@STARTMSG 1001:1 @!@!@
+Java ran out of memory.  Running Java with a larger memory allocation
+pool (heap) may fix this.  But it won't help if some state has an enormous
+number of successor states, or if TLC must compute the value of a huge set.
+@!@!@ENDMSG 1001 @!@!@
+@!@!@STARTMSG 2186:0 @!@!@
+Finished in 1302370ms at (2018-10-05 22:08:22)
+@!@!@ENDMSG 2186 @!@!@

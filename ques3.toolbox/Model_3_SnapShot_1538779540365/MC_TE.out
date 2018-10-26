@@ -1,0 +1,368 @@
+@!@!@STARTMSG 2262:0 @!@!@
+TLC2 Version 2.13 of 18 July 2018
+@!@!@ENDMSG 2262 @!@!@
+@!@!@STARTMSG 2187:0 @!@!@
+Running breadth-first search Model-Checking with seed 5624070030402076211 with 4 workers on 8 cores with 608MB heap and 1365MB offheap memory (Mac OS X 10.13.6 x86_64, Oracle Corporation 1.8.0_172 x86_64).
+@!@!@ENDMSG 2187 @!@!@
+@!@!@STARTMSG 2220:0 @!@!@
+Starting SANY...
+@!@!@ENDMSG 2220 @!@!@
+Parsing file /Users/vivek/Desktop/ques3.toolbox/Model_3/MC.tla
+Parsing file /Users/vivek/Desktop/ques3.toolbox/Model_3/MutexLamport.tla
+Parsing file /private/var/folders/21/kx9qb6b10f7d9vd8cps7p7sh0000gn/T/AppTranslocation/1F3A27BE-3BB7-429F-85AC-E6180E609087/d/TLA+ Toolbox.app/Contents/Eclipse/plugins/org.lamport.tlatools_1.0.0.201807180447/tla2sany/StandardModules/TLC.tla
+Parsing file /private/var/folders/21/kx9qb6b10f7d9vd8cps7p7sh0000gn/T/AppTranslocation/1F3A27BE-3BB7-429F-85AC-E6180E609087/d/TLA+ Toolbox.app/Contents/Eclipse/plugins/org.lamport.tlatools_1.0.0.201807180447/tla2sany/StandardModules/Naturals.tla
+Parsing file /private/var/folders/21/kx9qb6b10f7d9vd8cps7p7sh0000gn/T/AppTranslocation/1F3A27BE-3BB7-429F-85AC-E6180E609087/d/TLA+ Toolbox.app/Contents/Eclipse/plugins/org.lamport.tlatools_1.0.0.201807180447/tla2sany/StandardModules/Sequences.tla
+Parsing file /private/var/folders/21/kx9qb6b10f7d9vd8cps7p7sh0000gn/T/AppTranslocation/1F3A27BE-3BB7-429F-85AC-E6180E609087/d/TLA+ Toolbox.app/Contents/Eclipse/plugins/org.lamport.tlatools_1.0.0.201807180447/tla2sany/StandardModules/FiniteSets.tla
+Semantic processing of module Naturals
+Semantic processing of module Sequences
+Semantic processing of module MutexLamport
+Semantic processing of module FiniteSets
+Semantic processing of module TLC
+Semantic processing of module MC
+@!@!@STARTMSG 2219:0 @!@!@
+SANY finished.
+@!@!@ENDMSG 2219 @!@!@
+@!@!@STARTMSG 2185:0 @!@!@
+Starting... (2018-10-05 18:45:34)
+@!@!@ENDMSG 2185 @!@!@
+@!@!@STARTMSG 2212:0 @!@!@
+Implied-temporal checking--satisfiability problem has 4 branches.
+@!@!@ENDMSG 2212 @!@!@
+@!@!@STARTMSG 2189:0 @!@!@
+Computing initial states...
+@!@!@ENDMSG 2189 @!@!@
+@!@!@STARTMSG 2190:0 @!@!@
+Finished computing initial states: 1 distinct state generated.
+@!@!@ENDMSG 2190 @!@!@
+@!@!@STARTMSG 2192:0 @!@!@
+Checking 4 branches of temporal properties for the current state space with 149564 total distinct states at (2018-10-05 18:45:39)
+@!@!@ENDMSG 2192 @!@!@
+@!@!@STARTMSG 2116:1 @!@!@
+Temporal properties were violated.
+
+@!@!@ENDMSG 2116 @!@!@
+@!@!@STARTMSG 2264:1 @!@!@
+The following behavior constitutes a counter-example:
+
+@!@!@ENDMSG 2264 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+1: <Initial predicate>
+/\ reqQ = <<<<>>, <<>>, <<>>, <<>>>>
+/\ clock = <<1, 1, 1, 1>>
+/\ pc = <<"start", "start", "start", "start", "comm", "comm", "comm", "comm">>
+/\ acks = <<{}, {}, {}, {}>>
+/\ network = << <<<<>>, <<>>, <<>>, <<>>>>,
+   <<<<>>, <<>>, <<>>, <<>>>>,
+   <<<<>>, <<>>, <<>>, <<>>>>,
+   <<<<>>, <<>>, <<>>, <<>>>> >>
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+2: <start line 174, col 16 to line 176, col 60 of module MutexLamport>
+/\ reqQ = <<<<>>, <<>>, <<>>, <<>>>>
+/\ clock = <<1, 1, 1, 1>>
+/\ pc = <<"start", "ncrit", "start", "start", "comm", "comm", "comm", "comm">>
+/\ acks = <<{}, {}, {}, {}>>
+/\ network = << <<<<>>, <<>>, <<>>, <<>>>>,
+   <<<<>>, <<>>, <<>>, <<>>>>,
+   <<<<>>, <<>>, <<>>, <<>>>>,
+   <<<<>>, <<>>, <<>>, <<>>>> >>
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+3: <start line 174, col 16 to line 176, col 60 of module MutexLamport>
+/\ reqQ = <<<<>>, <<>>, <<>>, <<>>>>
+/\ clock = <<1, 1, 1, 1>>
+/\ pc = <<"start", "ncrit", "start", "ncrit", "comm", "comm", "comm", "comm">>
+/\ acks = <<{}, {}, {}, {}>>
+/\ network = << <<<<>>, <<>>, <<>>, <<>>>>,
+   <<<<>>, <<>>, <<>>, <<>>>>,
+   <<<<>>, <<>>, <<>>, <<>>>>,
+   <<<<>>, <<>>, <<>>, <<>>>> >>
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+4: <start line 174, col 16 to line 176, col 60 of module MutexLamport>
+/\ reqQ = <<<<>>, <<>>, <<>>, <<>>>>
+/\ clock = <<1, 1, 1, 1>>
+/\ pc = <<"start", "ncrit", "ncrit", "ncrit", "comm", "comm", "comm", "comm">>
+/\ acks = <<{}, {}, {}, {}>>
+/\ network = << <<<<>>, <<>>, <<>>, <<>>>>,
+   <<<<>>, <<>>, <<>>, <<>>>>,
+   <<<<>>, <<>>, <<>>, <<>>>>,
+   <<<<>>, <<>>, <<>>, <<>>>> >>
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+5: <ncrit line 178, col 16 to line 181, col 60 of module MutexLamport>
+/\ reqQ = <<<<>>, <<>>, <<>>, <<>>>>
+/\ clock = <<1, 1, 1, 1>>
+/\ pc = <<"start", "ncrit", "ncrit", "try", "comm", "comm", "comm", "comm">>
+/\ acks = <<{}, {}, {}, {}>>
+/\ network = << <<<<>>, <<>>, <<>>, <<>>>>,
+   <<<<>>, <<>>, <<>>, <<>>>>,
+   <<<<>>, <<>>, <<>>, <<>>>>,
+   <<<<>>, <<>>, <<>>, <<>>>> >>
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+6: <ncrit line 178, col 16 to line 181, col 60 of module MutexLamport>
+/\ reqQ = <<<<>>, <<>>, <<>>, <<>>>>
+/\ clock = <<1, 1, 1, 1>>
+/\ pc = <<"start", "ncrit", "try", "try", "comm", "comm", "comm", "comm">>
+/\ acks = <<{}, {}, {}, {}>>
+/\ network = << <<<<>>, <<>>, <<>>, <<>>>>,
+   <<<<>>, <<>>, <<>>, <<>>>>,
+   <<<<>>, <<>>, <<>>, <<>>>>,
+   <<<<>>, <<>>, <<>>, <<>>>> >>
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+7: <start line 174, col 16 to line 176, col 60 of module MutexLamport>
+/\ reqQ = <<<<>>, <<>>, <<>>, <<>>>>
+/\ clock = <<1, 1, 1, 1>>
+/\ pc = <<"ncrit", "ncrit", "try", "try", "comm", "comm", "comm", "comm">>
+/\ acks = <<{}, {}, {}, {}>>
+/\ network = << <<<<>>, <<>>, <<>>, <<>>>>,
+   <<<<>>, <<>>, <<>>, <<>>>>,
+   <<<<>>, <<>>, <<>>, <<>>>>,
+   <<<<>>, <<>>, <<>>, <<>>>> >>
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+8: <try line 183, col 14 to line 188, col 43 of module MutexLamport>
+/\ reqQ = <<<<>>, <<>>, <<>>, <<>>>>
+/\ clock = <<1, 1, 1, 1>>
+/\ pc = <<"ncrit", "ncrit", "enter", "try", "comm", "comm", "comm", "comm">>
+/\ acks = <<{}, {}, {}, {}>>
+/\ network = << <<<<>>, <<>>, <<>>, <<>>>>,
+   <<<<>>, <<>>, <<>>, <<>>>>,
+   << <<[clk |-> 1, kind |-> "request"]>>,
+      <<[clk |-> 1, kind |-> "request"]>>,
+      <<[clk |-> 1, kind |-> "request"]>>,
+      <<[clk |-> 1, kind |-> "request"]>> >>,
+   <<<<>>, <<>>, <<>>, <<>>>> >>
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+9: <comm line 210, col 15 to line 244, col 51 of module MutexLamport>
+/\ reqQ = <<<<>>, <<>>, <<>>, <<[site |-> 3, clk |-> 1]>>>>
+/\ clock = <<1, 1, 1, 2>>
+/\ pc = <<"ncrit", "ncrit", "enter", "try", "comm", "comm", "comm", "comm">>
+/\ acks = <<{}, {}, {}, {}>>
+/\ network = << <<<<>>, <<>>, <<>>, <<>>>>,
+   <<<<>>, <<>>, <<>>, <<>>>>,
+   << <<[clk |-> 1, kind |-> "request"]>>,
+      <<[clk |-> 1, kind |-> "request"]>>,
+      <<[clk |-> 1, kind |-> "request"]>>,
+      <<>> >>,
+   <<<<>>, <<>>, <<[kind |-> "ack"]>>, <<>>>> >>
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+10: <ncrit line 178, col 16 to line 181, col 60 of module MutexLamport>
+/\ reqQ = <<<<>>, <<>>, <<>>, <<[site |-> 3, clk |-> 1]>>>>
+/\ clock = <<1, 1, 1, 2>>
+/\ pc = <<"try", "ncrit", "enter", "try", "comm", "comm", "comm", "comm">>
+/\ acks = <<{}, {}, {}, {}>>
+/\ network = << <<<<>>, <<>>, <<>>, <<>>>>,
+   <<<<>>, <<>>, <<>>, <<>>>>,
+   << <<[clk |-> 1, kind |-> "request"]>>,
+      <<[clk |-> 1, kind |-> "request"]>>,
+      <<[clk |-> 1, kind |-> "request"]>>,
+      <<>> >>,
+   <<<<>>, <<>>, <<[kind |-> "ack"]>>, <<>>>> >>
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+11: <try line 183, col 14 to line 188, col 43 of module MutexLamport>
+/\ reqQ = <<<<>>, <<>>, <<>>, <<[site |-> 3, clk |-> 1]>>>>
+/\ clock = <<1, 1, 1, 2>>
+/\ pc = <<"enter", "ncrit", "enter", "try", "comm", "comm", "comm", "comm">>
+/\ acks = <<{}, {}, {}, {}>>
+/\ network = << << <<[clk |-> 1, kind |-> "request"]>>,
+      <<[clk |-> 1, kind |-> "request"]>>,
+      <<[clk |-> 1, kind |-> "request"]>>,
+      <<[clk |-> 1, kind |-> "request"]>> >>,
+   <<<<>>, <<>>, <<>>, <<>>>>,
+   << <<[clk |-> 1, kind |-> "request"]>>,
+      <<[clk |-> 1, kind |-> "request"]>>,
+      <<[clk |-> 1, kind |-> "request"]>>,
+      <<>> >>,
+   <<<<>>, <<>>, <<[kind |-> "ack"]>>, <<>>>> >>
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+12: <comm line 210, col 15 to line 244, col 51 of module MutexLamport>
+/\ reqQ = <<<<>>, <<>>, <<[site |-> 1, clk |-> 1]>>, <<[site |-> 3, clk |-> 1]>>>>
+/\ clock = <<1, 1, 2, 2>>
+/\ pc = <<"enter", "ncrit", "enter", "try", "comm", "comm", "comm", "comm">>
+/\ acks = <<{}, {}, {}, {}>>
+/\ network = << << <<[clk |-> 1, kind |-> "request"]>>,
+      <<[clk |-> 1, kind |-> "request"]>>,
+      <<>>,
+      <<[clk |-> 1, kind |-> "request"]>> >>,
+   <<<<>>, <<>>, <<>>, <<>>>>,
+   << <<[clk |-> 1, kind |-> "request"], [kind |-> "ack"]>>,
+      <<[clk |-> 1, kind |-> "request"]>>,
+      <<[clk |-> 1, kind |-> "request"]>>,
+      <<>> >>,
+   <<<<>>, <<>>, <<[kind |-> "ack"]>>, <<>>>> >>
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2218:4 @!@!@
+13: Stuttering
+@!@!@ENDMSG 2218 @!@!@
+@!@!@STARTMSG 2267:0 @!@!@
+Finished checking temporal properties in 00s at 2018-10-05 18:45:39
+@!@!@ENDMSG 2267 @!@!@
+@!@!@STARTMSG 2201:0 @!@!@
+The coverage statistics at 2018-10-05 18:45:39
+@!@!@ENDMSG 2201 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 175, col 19 to line 175, col 53 of module MutexLamport: 21828
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 176, col 32 to line 176, col 38 of module MutexLamport: 21828
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 176, col 41 to line 176, col 45 of module MutexLamport: 21828
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 176, col 48 to line 176, col 51 of module MutexLamport: 21828
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 176, col 54 to line 176, col 57 of module MutexLamport: 21828
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 180, col 19 to line 180, col 51 of module MutexLamport: 11702
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 181, col 32 to line 181, col 38 of module MutexLamport: 11702
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 181, col 41 to line 181, col 45 of module MutexLamport: 11702
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 181, col 48 to line 181, col 51 of module MutexLamport: 11702
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 181, col 54 to line 181, col 57 of module MutexLamport: 11702
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 184, col 17 to line 185, col 79 of module MutexLamport: 5902
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 186, col 17 to line 186, col 50 of module MutexLamport: 5902
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 187, col 17 to line 187, col 51 of module MutexLamport: 5902
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 188, col 30 to line 188, col 34 of module MutexLamport: 5902
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 188, col 37 to line 188, col 40 of module MutexLamport: 5902
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 194, col 19 to line 194, col 52 of module MutexLamport: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 195, col 32 to line 195, col 38 of module MutexLamport: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 195, col 41 to line 195, col 45 of module MutexLamport: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 195, col 48 to line 195, col 51 of module MutexLamport: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 195, col 54 to line 195, col 57 of module MutexLamport: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 199, col 18 to line 199, col 51 of module MutexLamport: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 200, col 31 to line 200, col 37 of module MutexLamport: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 200, col 40 to line 200, col 44 of module MutexLamport: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 200, col 47 to line 200, col 50 of module MutexLamport: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 200, col 53 to line 200, col 56 of module MutexLamport: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 203, col 18 to line 203, col 71 of module MutexLamport: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 204, col 18 to line 204, col 52 of module MutexLamport: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 205, col 31 to line 205, col 35 of module MutexLamport: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 205, col 38 to line 205, col 41 of module MutexLamport: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 205, col 44 to line 205, col 47 of module MutexLamport: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 222, col 43 to line 223, col 104 of module MutexLamport: 71454
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 224, col 37 to line 224, col 95 of module MutexLamport: 71454
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 225, col 37 to line 225, col 85 of module MutexLamport: 71454
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 226, col 37 to line 226, col 48 of module MutexLamport: 71454
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 228, col 48 to line 228, col 92 of module MutexLamport: 28646
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 229, col 48 to line 229, col 62 of module MutexLamport: 28646
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 230, col 48 to line 230, col 59 of module MutexLamport: 28646
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 235, col 74 to line 235, col 164 of module MutexLamport: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 237, col 74 to line 237, col 85 of module MutexLamport: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 238, col 59 to line 238, col 73 of module MutexLamport: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 240, col 72 to line 240, col 78 of module MutexLamport: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 241, col 72 to line 241, col 75 of module MutexLamport: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 242, col 48 to line 242, col 59 of module MutexLamport: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 243, col 37 to line 243, col 50 of module MutexLamport: 28646
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 244, col 18 to line 244, col 51 of module MutexLamport: 100100
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2202:0 @!@!@
+End of statistics.
+@!@!@ENDMSG 2202 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(13) at 2018-10-05 18:45:39: 139533 states generated (1,899,269 s/min), 37391 distinct states found (508,951 ds/min), 20185 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2199:0 @!@!@
+139533 states generated, 37391 distinct states found, 20185 states left on queue.
+@!@!@ENDMSG 2199 @!@!@
+@!@!@STARTMSG 2186:0 @!@!@
+Finished in 4839ms at (2018-10-05 18:45:39)
+@!@!@ENDMSG 2186 @!@!@
