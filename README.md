@@ -1,11 +1,5 @@
 You are asked to run TLC to verify properties of distributed mutual exclusion algorithms through 3 specifications written in TLA+:
 
-1. The specification given in tlaplus on github (https://github.com/tlaplus/Examples/blob/master/specifications/lamport_mutex/LamportMutex.tla, discussed by Saksham on Friday)
-
-2. The specification given by Lamport in PODC 2000 tutorial (http://www.cs.stonybrook.edu/~liu/distalgo/lamutex_tlaplus_lamport_handout.pdf pages 3-4, with properties in slides)
-
-3 The second specification given by Merz in emails (http://www.cs.stonybrook.edu/~liu/distalgo/lamutex_pluscal_merz)
-
 You are expected to check both safety and liveness properties that are given with the specification or are in the slides.
 
 Your main task is to run TLC on these specifications to verify those properties, and report your results in the following two aspects:
